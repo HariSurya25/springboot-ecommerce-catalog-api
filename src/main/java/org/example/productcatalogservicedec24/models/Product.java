@@ -10,6 +10,8 @@ public class Product extends  BaseModel{
     private String description;
     private String imageUrl;
     private double price;
+    private Category category;
+    private  Boolean isPrime;
 
 
 }
